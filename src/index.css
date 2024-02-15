@@ -1,13 +1,124 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h3 {
+  margin: 10px 5px 0;
+  
+}
+
+h6 {
+  font-size: medium;
+  margin: 5px 0;
+  text-transform: uppercase;
+  
+}
+
+p {
+  font-size: 24px;
+  line-height: 21px;
+  text-align: center;
+  color: #0a1e09;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.card {
+  display: flex;
+}
+
+.card-container { 
+  background-image: linear-gradient(to left top , rgba(0, 200, 255, 0.77), rgba(241, 101, 8, 0.982));
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.50);
+  color:rgb(237, 245, 15) ;
+  text-shadow: 2px 1px #71c829;
+  padding-top: 30px;
+  width: 350px;
+  max-width: 100%;
+ text-align: center;
+ position: relative;
+ margin: 10px;
+}
+
+ .pro {
+   color: #000 ;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 7px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+}
+.active{
+  background-color: rgb(162, 255, 0);
+}
+
+.retired{
+  background-color: rgb(148, 153, 151);
+}
+.img{
+  border: 5px solid #8416e4;
+  border-radius: 50%;
+  padding: 3px;
+  height: 250px;
+  
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+button.primary {
+  background-color: darkorange;
+  border: 2px rgba(0, 200, 255, 0.77);
+  border-radius: 3px;
+  color: rgb(64, 56, 7);
+  font-weight: 500;
+  padding: 10px 25px;
+
+
+}
+
+
+button.primary.outline {
+background-color:rgba(0, 200, 255, 0.77);
+}
+
+.skills {
+text-align: left;
+padding: 15px;
+margin-top: 15px;
+}
+
+.skills ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.skills ul li  {
+  border: 2px solid  rgba(53, 148, 175, 0.77) ;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 7px;
+  margin: 0 7px 7px 0;
+  font-size: 12px;
+  color: #ef880a;
+}
+

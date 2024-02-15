@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.student table{
+border: 1px solid#ccc;
+border-collapse: collapse;
+width: 300px;
+margin-bottom: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.student table td,
+.student table th {
+  text-align: left;
+  border:2px solid#91e31d;
+  padding: 5px 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.student table th {
+  width: 100px;
+  font-style: italic;
+  color: rgb(9, 158, 226);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.student table td {
+  width: 100px;
+  font-weight: 100px;
+  font-style: italic;
+  color: rgba(241, 100, 6, 0.626);
 }
