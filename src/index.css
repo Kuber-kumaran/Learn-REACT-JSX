@@ -1,17 +1,4 @@
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-#root {
-  display: flex; 
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  min-height: 100vh;
-  margin: 0;
-}
 
 h3 {
   margin: 10px 5px 0;
@@ -22,6 +9,7 @@ h6 {
   font-size: medium;
   margin: 5px 0;
   text-transform: uppercase;
+
   
 }
 

@@ -1,16 +1,16 @@
-import React, { useState } from 'react'
-
+import React, { useState } from "react";
 
 export const Cart = () => {
+  const [productCount, setProductCount] = useState(3);
 
-const [productCount, setProductCount] = useState(0);
+  const handleClick = () => {
+    setProductCount(productCount -1);
+  };
 
-const handleClick = () =>  {
-setProductCount(productCount+1)
-}
-
-  return (<>
-    <h1>Quantity of products customer bought {productCount}</h1>
-    <button onClick={handleClick}>click me</button>
-    </>)
-}
+  return (
+    <>
+      <h1>Quantity of products customer bought: {productCount}</h1>
+      <button onClick={handleClick}>{productCount} click me</button>
+    </>
+  );
+};
