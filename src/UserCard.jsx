@@ -49,9 +49,10 @@ function Player(props) {
           <button className="primary">Message</button>
           <button className="primary outline">Following</button>
         </div>
-        <div className="skills">
+        <div className="skils">
           <h6>Skills</h6>
           <ul>
+            
             {props.skills.map((skill, index) => (
               <li key={index}>{skill}</li>
             ))}
