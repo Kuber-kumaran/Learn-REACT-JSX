@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import RegForm from './FormSamples/RegForm';
+import { AdviceApp } from './FormSamples/AdviceApp';
+// import RegForm from './FormSamples/RegForm';
 // import UserDetails from './FormSamples/UserDetails';
 // import { Cart } from './FormSamples/Cart';
 // import { QRcode } from './Components/QRcode';
@@ -17,8 +18,9 @@ root.render(
     {/* <QRcode/> */}
     {/* <UserDetails/> */}
     {/* <Cart/> */}
+    {/* <RegForm/> */}
 
-    <RegForm/>
+    <AdviceApp/>
     
   </React.StrictMode>
 );
